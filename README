@@ -1,4 +1,1 @@
-dupcommand 
-
--- duplicate commands by running them many times in many threads
-
+dupcommand -- duplicate commands by running them many times in many threads
