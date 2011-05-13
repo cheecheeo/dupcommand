@@ -19,7 +19,6 @@
 --
 -----------------------------------------------------------------------------
 
--- TODO allow to talk to processes via stdin?
 -- TODO running 0 times = run infinite times
 
 import qualified System.Environment as Env
