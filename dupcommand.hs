@@ -46,6 +46,6 @@ runN :: Chan (ExitCode, String, String) -> Int -> String -> String -> IO ()
 runN chan times stdin command
   | times <= 0 = return ()
   | otherwise  = do
-    (ex, out, err) <- SE.readCommandWithExitCode command ""
+    (ex, out, err) <- SE.readCommandWithExitCode command stdin
     C.writeChan chan (ex, out, err)
     runN chan (times - 1) stdin command
