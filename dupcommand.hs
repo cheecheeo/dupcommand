@@ -26,7 +26,6 @@ import qualified System.Environment as Env
 import Control.Concurrent (Chan)
 import qualified Control.Concurrent as C
 import qualified Control.Monad as M
-import Control.Applicative ((<$>))
 import qualified SystemExtras as SE
 import System.Exit (ExitCode(..))
 
