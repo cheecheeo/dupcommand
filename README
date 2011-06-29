@@ -1,1 +1,4 @@
 dupcommand -- duplicate commands by running them many times in many threads
+This program is an example of concurrent programming in Haskell.
+
+If you're interested in the functionality provided by this program you should check out GNU parallel at http://www.gnu.org/software/parallel/ not to be confused with 'parallel' from the 'moreutils' project.
